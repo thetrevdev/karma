@@ -1,3 +1,21 @@
+<a name"1.0.0-0"></a>
+### 1.0.0-0 (2015-05-20)
+
+
+#### Bug Fixes
+
+* catch exceptions from SourceMapConsumer ([5d42e643](https://github.com/karma-runner/karma/commit/5d42e643))
+* Safeguard IE against console.log ([0b5ff8f6](https://github.com/karma-runner/karma/commit/0b5ff8f6), closes [#1209](https://github.com/karma-runner/karma/issues/1209))
+* **init:** fix test-main.(js/coffee) generation ([d8521ef4](https://github.com/karma-runner/karma/commit/d8521ef4), closes [#1120](https://github.com/karma-runner/karma/issues/1120), [#896](https://github.com/karma-runner/karma/issues/896))
+
+
+#### Features
+
+* allow frameworks to add preprocessors This changes the order in which things are ([f6f5eec3](https://github.com/karma-runner/karma/commit/f6f5eec3))
+* **reporter:** cache SourceMapConsumer ([fe6ed7e5](https://github.com/karma-runner/karma/commit/fe6ed7e5))
+* **watcher:** Allow using braces in watcher ([e046379b](https://github.com/karma-runner/karma/commit/e046379b), closes [#1249](https://github.com/karma-runner/karma/issues/1249))
+
+
 <a name="0.12.31"></a>
 ### 0.12.31 (2015-01-02)
 
